@@ -1,0 +1,45 @@
+{
+  "name": "protractor-setup",
+  "version": "1.0.1",
+  "description": "test",
+  "main": "config/protractorConf.js",
+  "scripts": {
+    "update-webdriver": "webdriver-manager update",
+    "postinstall": "webdriver-manager update",
+    "instGlobal": "npm install -g protractor gulp",
+    "pretest": "npm install",
+    "test": "gulp test --suite release",
+    "start": "gulp test --suite release"
+  },
+  "author": "Fabian C",
+  "dependencies": {
+    "date-fns": "^1.29.0",
+    "del": "^3.0.0",
+    "fast-csv": "^2.4.1",
+    "fs-extra": "^7.0.0",
+    "glob": "^7.1.2",
+    "gulp": "^3.9.1",
+    "ent": "*",
+    "gulp-protractor": "^4.1.0",
+    "jasmine-spec-reporter": "^4.2.1",
+    "jstz": "^2.0.0",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "node-excel-to-json": "0.0.3",
+    "pdf2json": "^1.1.7",
+    "protractor": "^5.4.0",
+    "protractor-jasmine2-html-reporter": "0.0.7",
+    "public-ip": "^2.4.0",
+    "request": "^2.87.0",
+    "striptags": "^3.1.1",
+    "xhr": "^2.5.0",
+    "xlsx": "^0.13.3",
+    "xmlhttprequest": "^1.8.0",
+    "yargs": "^12.0.1"
+  },
+  "devDependencies": {
+    "create-if-not-exist": "0.0.2",
+    "eslint": "^5.3.0",
+    "gulp-eslint": "^5.0.0"
+  }
+}

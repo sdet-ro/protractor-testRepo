@@ -1,0 +1,9 @@
+.DS_Store
+node_modules
+npm-debug.log
+.idea
+report/screenshots/*.png
+.idea/workspace.xml
+RTMS.Portal.Regression.Test/.idea/workspace.xml
+downloads
+.vscode
